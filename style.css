@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+.image-side{
+    background-image:url("halie-west-25xggax4bSA-unsplash.jpg");
+    width:30%;
+}
+.form-side{
+    display: flex;
+}
+.form-part{
+    display: flex;
+}
