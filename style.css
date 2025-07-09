@@ -120,6 +120,8 @@ label{
 input {
     border: 1.5px solid #E5E7EB;
 }
-input:invalid {
-    border: 1.5px solid red;
+input:focus {
+    border: 1.5px solid #2563eb;      
+    box-shadow: 0 0 5px 0 #2563eb33;  
+    outline: none;                    
 }
