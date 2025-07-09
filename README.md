@@ -1,4 +1,4 @@
-#Project 3: Building Webpages Without any AI
+# Project 3: Building Webpages Without any AI
 
 A **frontend sign-up form**, inspired by [The Odin Project](https://www.theodinproject.com/) project ideas.
 
