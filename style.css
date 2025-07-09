@@ -9,33 +9,45 @@
 
 .image-side {
     flex: 3;
+    display: flex;
     background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    justify-content:center;
+    align-items:flex-start;
 }
 
 .form-side {
+  
     flex: 7;
     display: flex;
     flex-direction: column;
     background-color: #f9fafb;
-    justify-content: space-around;
+    justify-content: flex-start;
+    margin-top: 5%;
+    gap:3rem ;
 }
-.text-content{
+.text-content,.text-content2{
+    padding-left: 5%;
+    padding-right:20%;
     font-weight: bold;
     font-size: larger;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
-.text-content2{
-    font-weight: bold;
-    font-size: larger;
+.text-content{
+    margin-bottom: 0.5rem;
 }
+.text-content2{
+    margin-top: 0;
+}
+
 .form-part {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 5rem;
     margin-bottom: 1rem;
     background-color: #ffffff;
+
 }
 .name-part,.contacts-part,.password-part{
     display: flex;
@@ -49,7 +61,65 @@ button {
     padding: 0.75rem 1.5rem;
     border: none;
     cursor: pointer;
+    border-radius: 8px;
 }
 button:hover {
     background-color: #4a5c3b;
+}
+.inside-white{
+    padding-left: 5%;
+    padding-right:20%;
+    ;
+
+}
+.login-message{
+    padding-left: 5%;
+}
+.button-container{
+    padding-left: 5% ;
+}
+label{
+    font-size: x-small;
+    font-weight: 440;
+    
+}
+.login-message span{
+    color:#596D48;
+}
+.login-message span:hover{
+    cursor: pointer;
+    color:#4a5c3b;
+}
+.first-name,
+.last-name,
+.email,
+.phone-number,
+.password,
+.confirm-password {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 1rem;
+}
+@font-face {
+  font-family: norse-bold;
+  src: url(Norse-Bold.otf);
+}
+.odin-img{
+    font-family: norse-bold;
+    color: white;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin-top: 10rem;
+    
+}
+input {
+    border: 1.5px solid #E5E7EB;
+}
+input:invalid {
+    border: 1.5px solid red;
 }
